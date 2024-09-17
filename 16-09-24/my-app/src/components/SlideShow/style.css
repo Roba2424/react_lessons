@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40em;
+  background-color: #a39e9e;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numberText {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+}
+
+.imageTitle {
+  color: #fff;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
