@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: black;
+  text-transform: uppercase;
+  padding: 15px;
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  height: 2px;
+  width: 90px;
+  text-align: center;
+  position: relative;
+  background: #00000033;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  background-color: #343b42 !important;
+}
+.header-brand a {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+}
+
+#header a {
+  color: #ffffffb3;
+}
+#header .navbar a:hover {
+  text-decoration: none;
+  color: #54d0dd;
+}
+
+.header-brand .fa {
+  color: #54d0dd;
+  font-size: 18px;
+}
+
+.navbar a {
+  font-size: 12px;
+}
+
+.navbar .active {
+  color: #54d0dd !important;
+}
+
+.intro {
+  background: url(assets/intro-bg.jpg) no-repeat center bottom;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  background-size: cover;
+}
+
+.intro-text {
+  padding: 250px 0 200px;
+}
+
+.intro h1 {
+  color: #ffffffe6;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.intro p {
+  color: #ffffffcc;
+  font-size: 22px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.btn-custom {
+  text-transform: uppercase;
+  color: #414a52;
+  background-color: #54d0dd;
+  border: 0;
+  padding: 14px 20px;
+  margin: 0;
+  font-size: 16px;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+#about {
+  padding: 120px 0;
+  background-color: #54d0dd;
+}
+
+.about-text a {
+  background-color: #343b42;
+  font-size: 15px;
+  color: #54d0dd;
+}
+
+#portfolio {
+  padding: 120px 0;
+  background-color: #696f75;
+}
+
+#portfolio h2 {
+  color: #54d0dd;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0 0 20px 0;
+}
+
+.categories {
+  padding-bottom: 30px;
+}
+.section-title.center {
+  padding: 10px 0 40px 0;
+}
+.cat li {
+  margin-top: 40px;
+  color: red;
+}
+
+.categories li {
+  margin-left: 20px;
+}
+#portfolio a {
+  background: #414a52;
+  padding: 12px 24px;
+  color: #54d0dd;
+  text-transform: uppercase;
+}
+
+#portfolio .active {
+  background: #54d0dd;
+  color: #414a52;
+}
+
+#portfolio .categories a:hover {
+  color: #414a52;
+  background: #54d0dd;
+}
+
+.portfolio-items {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+#portfolio img {
+  height: 25vh;
+  margin: 0.8em;
+}
+
+.image-container img {
+  object-fit: cover;
+}
+
+#contact {
+  padding: 120px 0 60px 0;
+  background: #54d0dd;
+}
+#contactForm {
+  padding: 30px 0;
+}
+.contact-title {
+  padding: 10px 0 40px 0;
+}
+
+#contact input {
+  border-radius: 0;
+  border: none;
+  padding: 6px 12px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #e2f6f8;
+  font-size: 14px;
+}
+
+#contact textarea {
+  width: 100%;
+  background-color: #e2f6f8;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.btn-default {
+  text-transform: uppercase;
+  color: #54d0dd;
+  background-color: #414a52;
+  border: 0;
+  padding: 14px 20px;
+  margin: 0;
+  font-size: 13px;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.btn-default:hover {
+  background-color: #333;
+}
+
+.social {
+  margin-top: 80px;
+}
+
+.social ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social i {
+  color: #333b41;
+  font-size: 25px;
+}
+
+.social i:hover {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#footer {
+  background: #343b42;
+  color: #ffffff66;
+  padding: 30px 0 25px 0;
+}
+
+#footer p {
+  font-size: 12px;
+}
+
+#freefooter {
+  display: block;
+  width: 100%;
+  padding: 120px 0 20px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.cube-1 {
+  background-color: red;
+}
+.cube-2 {
+  background-color: blue;
+}
+.cube-3 {
+  background-color: green;
+}
+.cube-4 {
+  background-color: yellow;
+}
+.cube-5 {
+  background-color: #54d0dd;
+}
+
+#freefooter .container {
+  width: 50%;
+}
+.cube-container {
+  height: 15vh;
+}

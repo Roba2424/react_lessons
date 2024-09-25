@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Spectrum</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-brand">
+        <i class="fa fa-play fa-rotate-270"></i
+        ><a class="brand-name" href="">Spectrum</a>
+      </div>
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <div class="intro">
+      <div class="container">
+        <div class="column">
+          <div class="intro-text">
+            <h1>Spectrum</h1>
+            <p>Web Design • Photography • Product Design</p>
+            <a href="#about" class="btn btn-custom btn-lg page-scroll"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>About Me</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="assets/about.jpg" alt="" class="img-responsive" />
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="about-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis
+                bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
+                commodo nibh.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis
+                bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.
+              </p>
+              <a href="#portfolio" class="btn btn-default btn-lg page-scroll"
+                >My Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>Portfolio</h2>
+          <hr />
+        </div>
+        <div class="categories">
+          <ul class="cat nav justify-content-center">
+            <li class="nav-item mx-2"><a href="" class="active">All</a></li>
+            <li class="nav-item mx-2"><a href="">Web Design</a></li>
+            <li class="nav-item mx-2"><a href="">Photography</a></li>
+            <li class="nav-item mx-2"><a href="">Product</a></li>
+          </ul>
+        </div>
+        <div class="container image-container">
+          <div class="row">
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/01-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/02-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/03-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/04-small.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/05-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/06-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/07-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/08-small.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/09-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/10-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/11-small.jpg" alt="" />
+            </div>
+            <div class="col-6 col-md-3 col-sm-6">
+              <img src="assets/12-small.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-title text-center">
+          <h2>Get In Touch</h2>
+          <hr />
+        </div>
+        <div class="col-8 offset-md-2 text-center">
+          <!-- form -->
+          <form action="" id="contactForm">
+            <div class="input-container row text-center">
+              <div class="col-md-6">
+                <input id="name" placeholder="Name" type="text" />
+              </div>
+              <div class="col-md-6">
+                <input id="email" placeholder="Email" type="text" />
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default btn-lg content-btn">
+              Send Message
+            </button>
+          </form>
+
+          <!-- social -->
+          <div class="social">
+            <ul>
+              <li>
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-behance" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="footer">
+      <div class="container text-center">
+        <div class="fnav">
+          <p>© Copyright. All rights reserved | Designed by TemplateWire</p>
+        </div>
+      </div>
+    </div>
+    <div id="freefooter">
+        <div class="container">
+          <div class="row text-center cube-container">
+            <div class="col-2 cube-1"></div>
+            <div class="col-2 cube-2"></div>
+            <div class="col-2 cube-3"></div>
+            <div class="col-2 cube-4"></div>
+            <div class="col-3 cube-5"></div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
