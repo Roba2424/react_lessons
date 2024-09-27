@@ -6,13 +6,13 @@
 body,
 html {
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
-  color: black;
   text-transform: uppercase;
   padding: 15px;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 ul {
@@ -30,39 +30,45 @@ hr {
   border: 0;
 }
 
-#header {
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 8vh;
-  background-color: #343b42 !important;
+  background-color: #343b42;
 }
-.header-brand a {
-  font-size: 20px;
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5em;
   letter-spacing: 1px;
-  text-decoration: none !important;
-}
-
-#header a {
-  color: #ffffffb3;
-}
-#header .navbar a:hover {
   text-decoration: none;
+}
+
+.navbar-brand i {
   color: #54d0dd;
 }
 
-.header-brand .fa {
-  color: #54d0dd;
-  font-size: 18px;
+.navbar-nav .nav-link {
+  color: #cccccc !important;
+  font-size: 0.7rem;
+  text-transform: uppercase;
 }
 
-.navbar a {
-  font-size: 12px;
+.navbar-nav .nav-link:hover {
+  color: #54d0dd !important ;
 }
 
-.navbar .active {
-  color: #54d0dd !important;
+.navbar-nav .active a{
+  color: #54d0dd !important ;
 }
+.navbar-nav .nav-item {
+  margin: 15px 0; /* Add space between items */
+}
+.navbar-collapse {
+  background-color: #333b41;
+}
+
 
 .intro {
   background: url(assets/intro-bg.jpg) no-repeat center bottom;
@@ -108,11 +114,23 @@ hr {
   padding: 120px 0;
   background-color: #54d0dd;
 }
+.about-text {
+  margin-left: 10px;
+}
+.about-text p {
+  margin-bottom: 20px;
+}
 
 .about-text a {
   background-color: #343b42;
   font-size: 15px;
   color: #54d0dd;
+  border-radius: 0;
+  padding: 14px 20px;
+}
+.about-text a:hover {
+  color: #54d0dd;
+  background-color: #414a52;
 }
 
 #portfolio {
@@ -166,11 +184,6 @@ hr {
 
 #portfolio img {
   height: 25vh;
-  margin: 0.8em;
-}
-
-.image-container img {
-  object-fit: cover;
 }
 
 #contact {
@@ -254,27 +267,4 @@ hr {
   padding: 120px 0 20px;
   overflow: hidden;
   background-color: transparent;
-}
-
-.cube-1 {
-  background-color: red;
-}
-.cube-2 {
-  background-color: blue;
-}
-.cube-3 {
-  background-color: green;
-}
-.cube-4 {
-  background-color: yellow;
-}
-.cube-5 {
-  background-color: #54d0dd;
-}
-
-#freefooter .container {
-  width: 50%;
-}
-.cube-container {
-  height: 15vh;
 }
