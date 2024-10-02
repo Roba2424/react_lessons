@@ -163,16 +163,11 @@ header {
     gap: 8px;
   }
   .project-title {
-    position: absolute;
     font-size: 0.8rem;
     color: #fff;
-    z-index: 100;
-    background-color: #000;
   }
 }
 
-#about {
-}
 
 .about-title {
   border-bottom: 1px solid #ccc;
